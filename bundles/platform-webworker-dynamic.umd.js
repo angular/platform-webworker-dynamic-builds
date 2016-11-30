@@ -1,13 +1,13 @@
 /**
- * @license Angular v2.3.0-beta.0-d420080
+ * @license Angular v2.2.4-9a9a7ac
  * (c) 2010-2016 Google, Inc. https://angular.io/
  * License: MIT
  */
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/compiler'), require('@angular/platform-browser-dynamic')) :
-    typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/compiler', '@angular/platform-browser-dynamic'], factory) :
-    (factory((global.ng = global.ng || {}, global.ng.platformWebworkerDynamic = global.ng.platformWebworkerDynamic || {}),global.ng.core,global.ng.compiler,global.ng.platformBrowserDynamic));
-}(this, function (exports,_angular_core,_angular_compiler,_angular_platformBrowserDynamic) { 'use strict';
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/compiler'), require('@angular/core'), require('@angular/platform-browser-dynamic')) :
+    typeof define === 'function' && define.amd ? define(['exports', '@angular/compiler', '@angular/core', '@angular/platform-browser-dynamic'], factory) :
+    (factory((global.ng = global.ng || {}, global.ng.platformWebworkerDynamic = global.ng.platformWebworkerDynamic || {}),global.ng.compiler,global.ng.core,global.ng.platformBrowserDynamic));
+}(this, function (exports,_angular_compiler,_angular_core,_angular_platformBrowserDynamic) { 'use strict';
 
     var ResourceLoaderImpl = _angular_platformBrowserDynamic.__platform_browser_dynamic_private__.ResourceLoaderImpl;
 
@@ -20,12 +20,6 @@
             multi: true
         }]);
 
-    /**
-     * @stable
-     */
-    var VERSION = new _angular_core.Version('2.3.0-beta.0-d420080');
-
-    exports.VERSION = VERSION;
     exports.platformWorkerAppDynamic = platformWorkerAppDynamic;
 
 }));
