@@ -1,6 +1,6 @@
 {
   "name": "@angular/platform-webworker-dynamic",
-  "version": "2.3.0-rc.0-393c100",
+  "version": "2.3.0-rc.0-25c2141",
   "description": "Angular - library for using Angular in a web browser with web workers",
   "main": "bundles/platform-webworker-dynamic.umd.js",
   "module": "index.js",
@@ -8,10 +8,10 @@
   "author": "angular",
   "license": "MIT",
   "peerDependencies": {
-    "@angular/core": "2.3.0-rc.0-393c100",
-    "@angular/compiler": "2.3.0-rc.0-393c100",
-    "@angular/platform-browser": "2.3.0-rc.0-393c100",
-    "@angular/platform-webworker": "2.3.0-rc.0-393c100"
+    "@angular/core": "2.3.0-rc.0-25c2141",
+    "@angular/compiler": "2.3.0-rc.0-25c2141",
+    "@angular/platform-browser": "2.3.0-rc.0-25c2141",
+    "@angular/platform-webworker": "2.3.0-rc.0-25c2141"
   },
   "repository": {
     "type": "git",
