@@ -8,7 +8,10 @@
 /**
  * @module
  * @description
- * Entry point for all public APIs of the platform-browser-dynamic package.
+ * Entry point for all public APIs of the common package.
  */
-export * from './src/platform-webworker-dynamic';
-//# sourceMappingURL=index.js.map
+import { Version } from '@angular/core';
+/**
+ * @stable
+ */
+export declare const VERSION: Version;

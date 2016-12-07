@@ -8,6 +8,7 @@
 import { ResourceLoader, platformCoreDynamic } from '@angular/compiler';
 import { COMPILER_OPTIONS, createPlatformFactory } from '@angular/core';
 import { ResourceLoaderImpl } from './private_import_platform-browser-dynamic';
+export { VERSION } from './version';
 /**
  * @experimental API related to bootstrapping are still under review.
  */
