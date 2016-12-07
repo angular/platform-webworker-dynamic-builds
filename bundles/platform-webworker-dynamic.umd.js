@@ -1,5 +1,5 @@
 /**
- * @license Angular v2.3.0-rc.0-16efb13
+ * @license Angular v2.3.0-rc.0-4a09c81
  * (c) 2010-2016 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -14,7 +14,7 @@
     /**
      * @stable
      */
-    var VERSION = new _angular_core.Version('2.3.0-rc.0-16efb13');
+    var VERSION = new _angular_core.Version('2.3.0-rc.0-4a09c81');
 
     /**
      * @experimental API related to bootstrapping are still under review.
