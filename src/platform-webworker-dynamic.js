@@ -12,7 +12,7 @@ export { VERSION } from './version';
 /**
  * @experimental API related to bootstrapping are still under review.
  */
-export var platformWorkerAppDynamic = createPlatformFactory(platformCoreDynamic, 'workerAppDynamic', [{
+export const platformWorkerAppDynamic = createPlatformFactory(platformCoreDynamic, 'workerAppDynamic', [{
         provide: COMPILER_OPTIONS,
         useValue: { providers: [{ provide: ResourceLoader, useClass: ResourceLoaderImpl }] },
         multi: true
