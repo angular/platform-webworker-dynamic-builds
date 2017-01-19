@@ -6,5 +6,5 @@
  * found in the LICENSE file at https://angular.io/license
  */
 import { __platform_browser_dynamic_private__ as _ } from '@angular/platform-browser-dynamic';
-export const ResourceLoaderImpl = _.ResourceLoaderImpl;
+export var ResourceLoaderImpl = _.ResourceLoaderImpl;
 //# sourceMappingURL=private_import_platform-browser-dynamic.js.map
