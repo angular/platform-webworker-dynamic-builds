@@ -1,31 +1,44 @@
-/**
- * @license Angular v4.0.0-beta.8-bb0460b
- * (c) 2010-2017 Google, Inc. https://angular.io/
- * License: MIT
- */
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/compiler'), require('@angular/core'), require('@angular/platform-browser-dynamic')) :
-    typeof define === 'function' && define.amd ? define(['exports', '@angular/compiler', '@angular/core', '@angular/platform-browser-dynamic'], factory) :
-    (factory((global.ng = global.ng || {}, global.ng.platformWebworkerDynamic = global.ng.platformWebworkerDynamic || {}),global.ng.compiler,global.ng.core,global.ng.platformBrowserDynamic));
-}(this, function (exports,_angular_compiler,_angular_core,_angular_platformBrowserDynamic) { 'use strict';
+  if (typeof define === "function" && define.amd) {
+    define('@angular/platform-webworker-dynamic', ['exports', '@angular/compiler', '@angular/core', '@angular/platform-browser-dynamic'], factory);
+  } else if (typeof exports !== "undefined") {
+    factory(exports, require('@angular/compiler'), require('@angular/core'), require('@angular/platform-browser-dynamic'));
+  } else {
+    var mod = {
+      exports: {}
+    };
+    factory(mod.exports, global.ng.compiler, global.ng.core, global.ng.platformBrowserDynamic);
+    global.ng = global.ng || {};
+    global.ng.platformWebworkerDynamic = mod.exports;
+  }
+})(this, function (exports, _compiler, _core, _platformBrowserDynamic) {
+  'use strict';
 
-    var ResourceLoaderImpl = _angular_platformBrowserDynamic.__platform_browser_dynamic_private__.ResourceLoaderImpl;
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.VERSION = exports.platformWorkerAppDynamic = undefined;
 
-    /**
-     * @stable
-     */
-    var VERSION = new _angular_core.Version('4.0.0-beta.8-bb0460b');
 
-    /**
-     * @experimental API related to bootstrapping are still under review.
-     */
-    var platformWorkerAppDynamic = _angular_core.createPlatformFactory(_angular_compiler.platformCoreDynamic, 'workerAppDynamic', [{
-            provide: _angular_core.COMPILER_OPTIONS,
-            useValue: { providers: [{ provide: _angular_compiler.ResourceLoader, useClass: ResourceLoaderImpl }] },
-            multi: true
-        }]);
+  /**
+   * @stable
+   */
+  var VERSION = new _core.Version('0.0.0-PLACEHOLDER');
 
-    exports.platformWorkerAppDynamic = platformWorkerAppDynamic;
-    exports.VERSION = VERSION;
+  /**
+   * @experimental API related to bootstrapping are still under review.
+   */
+  /**
+   * @license Angular v0.0.0-PLACEHOLDER
+   * (c) 2010-2017 Google, Inc. https://angular.io/
+   * License: MIT
+   */
+  var platformWorkerAppDynamic = (0, _core.createPlatformFactory)(_compiler.platformCoreDynamic, 'workerAppDynamic', [{
+    provide: _core.COMPILER_OPTIONS,
+    useValue: { providers: [{ provide: _compiler.ResourceLoader, useClass: _platformBrowserDynamic.ɵResourceLoaderImpl }] },
+    multi: true
+  }]);
 
-}));
+  exports.platformWorkerAppDynamic = platformWorkerAppDynamic;
+  exports.VERSION = VERSION;
+});
