@@ -24,11 +24,11 @@
    * @stable
    */
   /**
-   * @license Angular v4.0.0-rc.2-207298c
+   * @license Angular v4.0.0-rc.2-b7e76cc
    * (c) 2010-2017 Google, Inc. https://angular.io/
    * License: MIT
    */
-  var VERSION = new _core.Version('4.0.0-rc.2-207298c');
+  var VERSION = new _core.Version('4.0.0-rc.2-b7e76cc');
 
   /**
    * @experimental API related to bootstrapping are still under review.
