@@ -1,5 +1,5 @@
 /**
- * @license Angular v4.0.0-rc.3-923d0c5
+ * @license Angular v4.0.0-rc.3-f92d644
  * (c) 2010-2017 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -11,7 +11,7 @@ import { ɵResourceLoaderImpl } from '@angular/platform-browser-dynamic';
 /**
  * @stable
  */
-const VERSION = new Version('4.0.0-rc.3-923d0c5');
+const VERSION = new Version('4.0.0-rc.3-f92d644');
 
 /**
  * @experimental API related to bootstrapping are still under review.
