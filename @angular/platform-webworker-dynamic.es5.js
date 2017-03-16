@@ -1,5 +1,5 @@
 /**
- * @license Angular v4.0.0-rc.3-a4076c7
+ * @license Angular v4.0.0-rc.3-992aa17
  * (c) 2010-2017 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -10,7 +10,7 @@ import { ɵResourceLoaderImpl } from '@angular/platform-browser-dynamic';
 /**
  * @stable
  */
-var VERSION = new Version('4.0.0-rc.3-a4076c7');
+var VERSION = new Version('4.0.0-rc.3-992aa17');
 /**
  * @experimental API related to bootstrapping are still under review.
  */
@@ -23,3 +23,4 @@ var platformWorkerAppDynamic = createPlatformFactory(platformCoreDynamic, 'worke
     { provide: PLATFORM_ID, useValue: ɵPLATFORM_WORKER_UI_ID }
 ]);
 export { platformWorkerAppDynamic, VERSION };
+//# sourceMappingURL=platform-webworker-dynamic.es5.js.map
