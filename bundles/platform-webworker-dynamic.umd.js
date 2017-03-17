@@ -1,5 +1,5 @@
 /**
- * @license Angular v4.0.0-rc.3-480a407
+ * @license Angular v4.0.0-rc.4-fcaca45
  * (c) 2010-2017 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -12,7 +12,7 @@
     /**
      * @stable
      */
-    var VERSION = new _angular_core.Version('4.0.0-rc.3-480a407');
+    var VERSION = new _angular_core.Version('4.0.0-rc.4-fcaca45');
     /**
      * @experimental API related to bootstrapping are still under review.
      */
@@ -29,3 +29,4 @@
     exports.VERSION = VERSION;
 
 }));
+//# sourceMappingURL=platform-webworker-dynamic.umd.js.map
