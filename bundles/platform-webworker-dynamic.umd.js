@@ -1,5 +1,5 @@
 /**
- * @license Angular v2.4.9-b0ae464
+ * @license Angular v2.4.10-6b57928
  * (c) 2010-2017 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -14,7 +14,7 @@
     /**
      * @stable
      */
-    var VERSION = new _angular_core.Version('2.4.9-b0ae464');
+    var VERSION = new _angular_core.Version('2.4.10-6b57928');
 
     /**
      * @experimental API related to bootstrapping are still under review.
