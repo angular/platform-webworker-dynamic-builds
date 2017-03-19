@@ -1,5 +1,5 @@
 /**
- * @license Angular v4.0.0-rc.5-80075af
+ * @license Angular v4.0.0-rc.5-f634c62
  * (c) 2010-2017 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -22,7 +22,7 @@ import { ɵResourceLoaderImpl } from '@angular/platform-browser-dynamic';
 /**
  * @stable
  */
-var VERSION = new Version('4.0.0-rc.5-80075af');
+var VERSION = new Version('4.0.0-rc.5-f634c62');
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
