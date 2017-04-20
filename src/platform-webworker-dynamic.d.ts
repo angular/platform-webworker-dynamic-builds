@@ -3,4 +3,4 @@ export { VERSION } from './version';
 /**
  * @experimental API related to bootstrapping are still under review.
  */
-export declare const platformWorkerAppDynamic: (extraProviders?: Provider[]) => PlatformRef;
+export declare const platformWorkerAppDynamic: (extraProviders?: Provider[] | undefined) => PlatformRef;
