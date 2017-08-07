@@ -1,5 +1,5 @@
 /**
- * @license Angular v5.0.0-beta.2-fcadbf4
+ * @license Angular v5.0.0-beta.2-f69561b
  * (c) 2010-2017 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -10,7 +10,7 @@
 }(this, (function (exports,_angular_common,_angular_compiler,_angular_core,_angular_platformBrowserDynamic) { 'use strict';
 
 /**
- * @license Angular v5.0.0-beta.2-fcadbf4
+ * @license Angular v5.0.0-beta.2-f69561b
  * (c) 2010-2017 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -29,7 +29,7 @@
 /**
  * @stable
  */
-var VERSION = new _angular_core.Version('5.0.0-beta.2-fcadbf4');
+var VERSION = new _angular_core.Version('5.0.0-beta.2-f69561b');
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -43,7 +43,7 @@ var VERSION = new _angular_core.Version('5.0.0-beta.2-fcadbf4');
 var platformWorkerAppDynamic = _angular_core.createPlatformFactory(_angular_compiler.platformCoreDynamic, 'workerAppDynamic', [
     {
         provide: _angular_core.COMPILER_OPTIONS,
-        useValue: { providers: [{ provide: _angular_compiler.ResourceLoader, useClass: _angular_platformBrowserDynamic.ɵResourceLoaderImpl, deps: [] }] },
+        useValue: { providers: [{ provide: _angular_compiler.ResourceLoader, useClass: _angular_platformBrowserDynamic.ɵResourceLoaderImpl }] },
         multi: true
     },
     { provide: _angular_core.PLATFORM_ID, useValue: _angular_common.ɵPLATFORM_WORKER_UI_ID }
