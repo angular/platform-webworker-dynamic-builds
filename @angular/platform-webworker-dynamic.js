@@ -1,5 +1,5 @@
 /**
- * @license Angular v5.0.0-beta.2-f69561b
+ * @license Angular v5.0.0-beta.2-f0a5501
  * (c) 2010-2017 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -23,7 +23,7 @@ import { ɵResourceLoaderImpl } from '@angular/platform-browser-dynamic';
 /**
  * @stable
  */
-const VERSION = new Version('5.0.0-beta.2-f69561b');
+const VERSION = new Version('5.0.0-beta.2-f0a5501');
 
 /**
  * @license
@@ -38,7 +38,7 @@ const VERSION = new Version('5.0.0-beta.2-f69561b');
 const platformWorkerAppDynamic = createPlatformFactory(platformCoreDynamic, 'workerAppDynamic', [
     {
         provide: COMPILER_OPTIONS,
-        useValue: { providers: [{ provide: ResourceLoader, useClass: ɵResourceLoaderImpl }] },
+        useValue: { providers: [{ provide: ResourceLoader, useClass: ɵResourceLoaderImpl, deps: [] }] },
         multi: true
     },
     { provide: PLATFORM_ID, useValue: ɵPLATFORM_WORKER_UI_ID }
