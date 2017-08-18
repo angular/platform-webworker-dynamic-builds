@@ -1,5 +1,5 @@
 /**
- * @license Angular v5.0.0-beta.4-83713dd
+ * @license Angular v5.0.0-beta.4-a56468c
  * (c) 2010-2017 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -10,7 +10,7 @@
 }(this, (function (exports,_angular_common,_angular_compiler,_angular_core,_angular_platformBrowserDynamic) { 'use strict';
 
 /**
- * @license Angular v5.0.0-beta.4-83713dd
+ * @license Angular v5.0.0-beta.4-a56468c
  * (c) 2010-2017 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -29,7 +29,7 @@
 /**
  * @stable
  */
-var VERSION = new _angular_core.Version('5.0.0-beta.4-83713dd');
+var VERSION = new _angular_core.Version('5.0.0-beta.4-a56468c');
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -40,7 +40,7 @@ var VERSION = new _angular_core.Version('5.0.0-beta.4-83713dd');
 /**
  * @experimental API related to bootstrapping are still under review.
  */
-var platformWorkerAppDynamic = _angular_core.createPlatformFactory(_angular_compiler.platformCoreDynamic, 'workerAppDynamic', [
+var platformWorkerAppDynamic = _angular_core.createPlatformFactory(_angular_platformBrowserDynamic.ɵplatformCoreDynamic, 'workerAppDynamic', [
     {
         provide: _angular_core.COMPILER_OPTIONS,
         useValue: { providers: [{ provide: _angular_compiler.ResourceLoader, useClass: _angular_platformBrowserDynamic.ɵResourceLoaderImpl, deps: [] }] },
