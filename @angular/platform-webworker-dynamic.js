@@ -1,12 +1,12 @@
 /**
- * @license Angular v4.2.0-beta.0-4874765
+ * @license Angular v5.0.0-beta.4-d64c935
  * (c) 2010-2017 Google, Inc. https://angular.io/
  * License: MIT
  */
 import { ɵPLATFORM_WORKER_UI_ID } from '@angular/common';
-import { ResourceLoader, platformCoreDynamic } from '@angular/compiler';
+import { ResourceLoader } from '@angular/compiler';
 import { COMPILER_OPTIONS, PLATFORM_ID, Version, createPlatformFactory } from '@angular/core';
-import { ɵResourceLoaderImpl } from '@angular/platform-browser-dynamic';
+import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-browser-dynamic';
 
 /**
  * @license
@@ -23,7 +23,7 @@ import { ɵResourceLoaderImpl } from '@angular/platform-browser-dynamic';
 /**
  * @stable
  */
-const VERSION = new Version('4.2.0-beta.0-4874765');
+const VERSION = new Version('5.0.0-beta.4-d64c935');
 
 /**
  * @license
@@ -35,10 +35,10 @@ const VERSION = new Version('4.2.0-beta.0-4874765');
 /**
  * @experimental API related to bootstrapping are still under review.
  */
-const platformWorkerAppDynamic = createPlatformFactory(platformCoreDynamic, 'workerAppDynamic', [
+const platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'workerAppDynamic', [
     {
         provide: COMPILER_OPTIONS,
-        useValue: { providers: [{ provide: ResourceLoader, useClass: ɵResourceLoaderImpl }] },
+        useValue: { providers: [{ provide: ResourceLoader, useClass: ɵResourceLoaderImpl, deps: [] }] },
         multi: true
     },
     { provide: PLATFORM_ID, useValue: ɵPLATFORM_WORKER_UI_ID }
