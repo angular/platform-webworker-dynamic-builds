@@ -1,5 +1,5 @@
 /**
- * @license Angular v5.0.0-beta.5-2e714f9
+ * @license Angular v5.0.0-beta.5-72c7b6e
  * (c) 2010-2017 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -22,7 +22,7 @@ import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-b
 /**
  * @stable
  */
-var VERSION = new Version('5.0.0-beta.5-2e714f9');
+var VERSION = new Version('5.0.0-beta.5-72c7b6e');
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
