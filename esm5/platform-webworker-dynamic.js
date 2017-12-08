@@ -1,5 +1,5 @@
 /**
- * @license Angular v5.1.0-9dd60a5
+ * @license Angular v5.1.0-baeec4d
  * (c) 2010-2017 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -27,7 +27,7 @@ import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-b
 /**
  * \@stable
  */
-var VERSION = new Version('5.1.0-9dd60a5');
+var VERSION = new Version('5.1.0-baeec4d');
 
 /**
  * @fileoverview added by tsickle
