@@ -1,6 +1,6 @@
 /**
- * @license Angular v5.2.0-rc.0-03d16fc
- * (c) 2010-2017 Google, Inc. https://angular.io/
+ * @license Angular v5.2.0-rc.0-4f1a571
+ * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
 import { ɵPLATFORM_WORKER_UI_ID } from '@angular/common';
@@ -22,7 +22,7 @@ import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-b
 /**
  * \@stable
  */
-var VERSION = new Version('5.2.0-rc.0-03d16fc');
+var VERSION = new Version('5.2.0-rc.0-4f1a571');
 
 /**
  * @fileoverview added by tsickle
