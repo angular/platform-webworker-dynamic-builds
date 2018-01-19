@@ -1,6 +1,6 @@
 {
   "name": "@angular/platform-webworker-dynamic",
-  "version": "5.9.9-6-beta.0-1104d17",
+  "version": "5.9.9-6-beta.0-21e37e4",
   "description": "Angular - library for using Angular in a web browser with web workers",
   "main": "./bundles/platform-webworker-dynamic.umd.js",
   "module": "./esm5/platform-webworker-dynamic.js",
@@ -12,11 +12,11 @@
     "tslib": "^1.7.1"
   },
   "peerDependencies": {
-    "@angular/common": "5.9.9-6-beta.0-1104d17",
-    "@angular/core": "5.9.9-6-beta.0-1104d17",
-    "@angular/compiler": "5.9.9-6-beta.0-1104d17",
-    "@angular/platform-browser": "5.9.9-6-beta.0-1104d17",
-    "@angular/platform-webworker": "5.9.9-6-beta.0-1104d17"
+    "@angular/common": "5.9.9-6-beta.0-21e37e4",
+    "@angular/core": "5.9.9-6-beta.0-21e37e4",
+    "@angular/compiler": "5.9.9-6-beta.0-21e37e4",
+    "@angular/platform-browser": "5.9.9-6-beta.0-21e37e4",
+    "@angular/platform-webworker": "5.9.9-6-beta.0-21e37e4"
   },
   "repository": {
     "type": "git",
