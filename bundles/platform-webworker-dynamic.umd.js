@@ -1,17 +1,17 @@
 /**
- * @license Angular v5.0.0-beta.6-f2945c6
- * (c) 2010-2017 Google, Inc. https://angular.io/
+ * @license Angular v6.0.0-beta.7-63cad11
+ * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/common'), require('@angular/compiler'), require('@angular/core'), require('@angular/platform-browser-dynamic')) :
-	typeof define === 'function' && define.amd ? define(['exports', '@angular/common', '@angular/compiler', '@angular/core', '@angular/platform-browser-dynamic'], factory) :
+	typeof define === 'function' && define.amd ? define('@angular/platform-webworker-dynamic', ['exports', '@angular/common', '@angular/compiler', '@angular/core', '@angular/platform-browser-dynamic'], factory) :
 	(factory((global.ng = global.ng || {}, global.ng.platformWebworkerDynamic = {}),global.ng.common,global.ng.compiler,global.ng.core,global.ng.platformBrowserDynamic));
 }(this, (function (exports,_angular_common,_angular_compiler,_angular_core,_angular_platformBrowserDynamic) { 'use strict';
 
 /**
- * @license Angular v5.0.0-beta.6-f2945c6
- * (c) 2010-2017 Google, Inc. https://angular.io/
+ * @license Angular v6.0.0-beta.7-63cad11
+ * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
 /**
@@ -26,14 +26,9 @@
  * found in the LICENSE file at https://angular.io/license
  */
 /**
- * @module
- * @description
- * Entry point for all public APIs of the common package.
- */
-/**
  * \@stable
  */
-var VERSION = new _angular_core.Version('5.0.0-beta.6-f2945c6');
+var VERSION = new _angular_core.Version('6.0.0-beta.7-63cad11');
 
 /**
  * @fileoverview added by tsickle

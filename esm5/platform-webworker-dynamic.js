@@ -1,6 +1,6 @@
 /**
- * @license Angular v5.0.0-beta.6-f2945c6
- * (c) 2010-2017 Google, Inc. https://angular.io/
+ * @license Angular v6.0.0-beta.7-63cad11
+ * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
 import { ɵPLATFORM_WORKER_UI_ID } from '@angular/common';
@@ -20,14 +20,9 @@ import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-b
  * found in the LICENSE file at https://angular.io/license
  */
 /**
- * @module
- * @description
- * Entry point for all public APIs of the common package.
- */
-/**
  * \@stable
  */
-const VERSION = new Version('5.0.0-beta.6-f2945c6');
+var VERSION = new Version('6.0.0-beta.7-63cad11');
 
 /**
  * @fileoverview added by tsickle
@@ -43,7 +38,7 @@ const VERSION = new Version('5.0.0-beta.6-f2945c6');
 /**
  * \@experimental API related to bootstrapping are still under review.
  */
-const platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'workerAppDynamic', [
+var platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'workerAppDynamic', [
     {
         provide: COMPILER_OPTIONS,
         useValue: { providers: [{ provide: ResourceLoader, useClass: ɵResourceLoaderImpl, deps: [] }] },
@@ -80,4 +75,4 @@ const platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'w
  */
 
 export { VERSION, platformWorkerAppDynamic };
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=platform-webworker-dynamic.js.map
