@@ -8,10 +8,6 @@
 /**
  * @module
  * @description
- * Entry point for all public APIs of the common package.
+ * Entry point for all public APIs of this package.
  */
-import { Version } from '@angular/core';
-/**
- *
- */
-export declare const VERSION: Version;
+export * from './src/platform-webworker-dynamic';
