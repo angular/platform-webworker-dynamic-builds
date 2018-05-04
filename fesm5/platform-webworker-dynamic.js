@@ -1,18 +1,15 @@
 /**
- * @license Angular v6.0.0-373a47d
+ * @license Angular v6.0.0+23.sha-5eb9c01
  * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
+
 import { ɵPLATFORM_WORKER_UI_ID } from '@angular/common';
 import { ResourceLoader } from '@angular/compiler';
 import { COMPILER_OPTIONS, PLATFORM_ID, Version, createPlatformFactory } from '@angular/core';
 import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-browser-dynamic';
 
 /**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/**
  * @license
  * Copyright Google Inc. All Rights Reserved.
  *
@@ -22,13 +19,9 @@ import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-b
 /**
  *
  */
-var VERSION = new Version('6.0.0-373a47d');
+var VERSION = new Version('6.0.0+23.sha-5eb9c01');
 
 /**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/**
  * @license
  * Copyright Google Inc. All Rights Reserved.
  *
@@ -36,7 +29,7 @@ var VERSION = new Version('6.0.0-373a47d');
  * found in the LICENSE file at https://angular.io/license
  */
 /**
- * \@experimental API related to bootstrapping are still under review.
+ * @experimental API related to bootstrapping are still under review.
  */
 var platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'workerAppDynamic', [
     {
@@ -48,9 +41,15 @@ var platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'wor
 ]);
 
 /**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
  */
+
+// This file only reexports content of the `src` folder. Keep it that way.
+
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -58,21 +57,10 @@ var platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'wor
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-/**
- * @module
- * @description
- * Entry point for all public APIs of this package.
- */
 
-// This file only reexports content of the `src` folder. Keep it that way.
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
 /**
  * Generated bundle index. Do not edit.
  */
 
-export { VERSION, platformWorkerAppDynamic };
+export { platformWorkerAppDynamic, VERSION };
 //# sourceMappingURL=platform-webworker-dynamic.js.map
