@@ -1,5 +1,5 @@
 /**
- * @license Angular v6.0.0-rc.5+294.sha-60aa943
+ * @license Angular v6.0.0-rc.5+295.sha-f69ac67
  * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -17,7 +17,12 @@
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-var VERSION = new core.Version('6.0.0-rc.5+294.sha-60aa943');
+/**
+ * @module
+ * @description
+ * Entry point for all public APIs of the common package.
+ */
+var VERSION = new core.Version('6.0.0-rc.5+295.sha-f69ac67');
 
 /**
  * @license
@@ -45,6 +50,11 @@ var platformWorkerAppDynamic = core.createPlatformFactory(platformBrowserDynamic
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
+/**
+ * @module
+ * @description
+ * Entry point for all public APIs of this package.
+ */
 
 // This file only reexports content of the `src` folder. Keep it that way.
 
@@ -55,6 +65,10 @@ var platformWorkerAppDynamic = core.createPlatformFactory(platformBrowserDynamic
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
+// This file is not used to build this module. It is only used during editing
+// by the TypeScript language service and during build for verification. `ngc`
+// replaces this file with production index.ts when it rewrites private symbol
+// names.
 
 /**
  * Generated bundle index. Do not edit.
