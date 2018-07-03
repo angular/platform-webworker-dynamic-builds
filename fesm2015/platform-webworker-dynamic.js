@@ -1,5 +1,5 @@
 /**
- * @license Angular v6.1.0-beta.3+28.sha-0922228
+ * @license Angular v6.1.0-beta.3+30.sha-e3064d5
  * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -11,7 +11,7 @@ import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-b
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 /**
  * @license
@@ -20,11 +20,12 @@ import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-b
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-const VERSION = new Version('6.1.0-beta.3+28.sha-0922228');
+/** @type {?} */
+const VERSION = new Version('6.1.0-beta.3+30.sha-e3064d5');
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 /**
  * @license
@@ -33,9 +34,9 @@ const VERSION = new Version('6.1.0-beta.3+28.sha-0922228');
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-/**
+/** *
  * \@experimental API related to bootstrapping are still under review.
- */
+  @type {?} */
 const platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'workerAppDynamic', [
     {
         provide: COMPILER_OPTIONS,
@@ -47,7 +48,7 @@ const platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'w
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 /**
  * @license
@@ -66,7 +67,7 @@ const platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'w
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 /**
  * @license
