@@ -1,5 +1,5 @@
 /**
- * @license Angular v6.0.9+11.sha-e97d961
+ * @license Angular v6.0.9+12.sha-0cbef9a
  * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -16,7 +16,7 @@ import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-b
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-var VERSION = new Version('6.0.9+11.sha-e97d961');
+var VERSION = new Version('6.0.9+12.sha-0cbef9a');
 
 /**
  * @license
