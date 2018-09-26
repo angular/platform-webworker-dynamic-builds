@@ -1,5 +1,5 @@
 /**
- * @license Angular v7.0.0-beta.6+89.sha-4597582
+ * @license Angular v7.0.0-beta.7+18.sha-a01acec
  * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -14,7 +14,7 @@ import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-b
  * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 /** @type {?} */
-const VERSION = new Version('7.0.0-beta.6+89.sha-4597582');
+const VERSION = new Version('7.0.0-beta.7+18.sha-a01acec');
 
 /**
  * @fileoverview added by tsickle
