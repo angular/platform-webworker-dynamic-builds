@@ -1,5 +1,5 @@
 /**
- * @license Angular v7.0.0-rc.1+118.sha-31022cb
+ * @license Angular v7.0.0-rc.1+137.sha-4c2ce4e
  * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -17,7 +17,10 @@
      * Use of this source code is governed by an MIT-style license that can be
      * found in the LICENSE file at https://angular.io/license
      */
-    var VERSION = new core.Version('7.0.0-rc.1+118.sha-31022cb');
+    /**
+     * @publicApi
+     */
+    var VERSION = new core.Version('7.0.0-rc.1+137.sha-4c2ce4e');
 
     /**
      * @license
@@ -27,7 +30,7 @@
      * found in the LICENSE file at https://angular.io/license
      */
     /**
-     * @experimental API related to bootstrapping are still under review.
+     * @publicApi
      */
     var platformWorkerAppDynamic = core.createPlatformFactory(platformBrowserDynamic.ɵplatformCoreDynamic, 'workerAppDynamic', [
         {
