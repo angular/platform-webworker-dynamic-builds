@@ -1,5 +1,5 @@
 /**
- * @license Angular v7.0.0-rc.1+111.sha-5b4cf38
+ * @license Angular v7.0.0-rc.1+178.sha-ee0b857.with-local-changes
  * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -16,7 +16,10 @@ import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-b
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-var VERSION = new Version('7.0.0-rc.1+111.sha-5b4cf38');
+/**
+ * @publicApi
+ */
+var VERSION = new Version('7.0.0-rc.1+178.sha-ee0b857.with-local-changes');
 
 /**
  * @license
@@ -26,7 +29,7 @@ var VERSION = new Version('7.0.0-rc.1+111.sha-5b4cf38');
  * found in the LICENSE file at https://angular.io/license
  */
 /**
- * @experimental API related to bootstrapping are still under review.
+ * @publicApi
  */
 var platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'workerAppDynamic', [
     {
