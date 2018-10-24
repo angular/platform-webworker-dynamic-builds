@@ -1,5 +1,5 @@
 /**
- * @license Angular v7.0.0+84.sha-a3eac19.with-local-changes
+ * @license Angular v7.0.0+86.sha-9d1d70a.with-local-changes
  * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -16,7 +16,7 @@ import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-b
 /** *
  * \@publicApi
   @type {?} */
-const VERSION = new Version('7.0.0+84.sha-a3eac19.with-local-changes');
+const VERSION = new Version('7.0.0+86.sha-9d1d70a.with-local-changes');
 
 /**
  * @fileoverview added by tsickle
