@@ -1,5 +1,5 @@
 /**
- * @license Angular v7.2.0-beta.2+8.sha-9c7fb0d
+ * @license Angular v7.2.0-beta.2+6.sha-28ceca0
  * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -11,22 +11,20 @@ import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-b
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingReturn,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
-/**
+/** *
  * \@publicApi
- * @type {?}
- */
-const VERSION = new Version('7.2.0-beta.2+8.sha-9c7fb0d');
+  @type {?} */
+const VERSION = new Version('7.2.0-beta.2+6.sha-28ceca0');
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingReturn,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
-/**
+/** *
  * \@publicApi
- * @type {?}
- */
+  @type {?} */
 const platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'workerAppDynamic', [
     {
         provide: COMPILER_OPTIONS,
@@ -38,12 +36,13 @@ const platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'w
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingReturn,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
+// This file only reexports content of the `src` folder. Keep it that way.
 
 /**
  * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingReturn,uselessCode} checked by tsc
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
  */
 
 /**
