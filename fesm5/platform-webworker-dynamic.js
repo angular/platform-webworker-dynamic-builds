@@ -1,5 +1,5 @@
 /**
- * @license Angular v7.2.0-rc.0+25.sha-791d865
+ * @license Angular v7.2.0-rc.0+26.sha-970e3a0
  * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
@@ -19,7 +19,7 @@ import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-b
 /**
  * @publicApi
  */
-var VERSION = new Version('7.2.0-rc.0+25.sha-791d865');
+var VERSION = new Version('7.2.0-rc.0+26.sha-970e3a0');
 
 /**
  * @license
