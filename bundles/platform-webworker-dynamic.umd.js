@@ -1,14 +1,14 @@
 /**
- * @license Angular v7.2.0+101.sha-ad6569c
- * (c) 2010-2018 Google, Inc. https://angular.io/
+ * @license Angular v7.2.0+128.sha-091a8a6
+ * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
 
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common'), require('@angular/compiler'), require('@angular/platform-browser-dynamic')) :
-    typeof define === 'function' && define.amd ? define('@angular/platform-webworker-dynamic', ['exports', '@angular/core', '@angular/common', '@angular/compiler', '@angular/platform-browser-dynamic'], factory) :
-    (factory((global.ng = global.ng || {}, global.ng.platformWebworkerDynamic = {}),global.ng.core,global.ng.common,global.ng.compiler,global.ng.platformBrowserDynamic));
-}(this, (function (exports,core,common,compiler,platformBrowserDynamic) { 'use strict';
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/common'), require('@angular/compiler'), require('@angular/core'), require('@angular/platform-browser-dynamic')) :
+    typeof define === 'function' && define.amd ? define('@angular/platform-webworker-dynamic', ['exports', '@angular/common', '@angular/compiler', '@angular/core', '@angular/platform-browser-dynamic'], factory) :
+    (global = global || self, factory((global.ng = global.ng || {}, global.ng.platformWebworkerDynamic = {}), global.ng.common, global.ng.compiler, global.ng.core, global.ng.platformBrowserDynamic));
+}(this, function (exports, common, compiler, core, platformBrowserDynamic) { 'use strict';
 
     /**
      * @license
@@ -20,7 +20,7 @@
     /**
      * @publicApi
      */
-    var VERSION = new core.Version('7.2.0+101.sha-ad6569c');
+    var VERSION = new core.Version('7.2.0+128.sha-091a8a6');
 
     /**
      * @license
@@ -67,5 +67,5 @@
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
-})));
+}));
 //# sourceMappingURL=platform-webworker-dynamic.umd.js.map
