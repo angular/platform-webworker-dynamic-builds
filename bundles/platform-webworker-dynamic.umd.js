@@ -1,14 +1,14 @@
 /**
- * @license Angular v7.2.0+103.sha-885f1af
+ * @license Angular v7.2.0+104.sha-b78351c
  * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
 
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common'), require('@angular/compiler'), require('@angular/platform-browser-dynamic')) :
-    typeof define === 'function' && define.amd ? define('@angular/platform-webworker-dynamic', ['exports', '@angular/core', '@angular/common', '@angular/compiler', '@angular/platform-browser-dynamic'], factory) :
-    (factory((global.ng = global.ng || {}, global.ng.platformWebworkerDynamic = {}),global.ng.core,global.ng.common,global.ng.compiler,global.ng.platformBrowserDynamic));
-}(this, (function (exports,core,common,compiler,platformBrowserDynamic) { 'use strict';
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/common'), require('@angular/compiler'), require('@angular/core'), require('@angular/platform-browser-dynamic')) :
+    typeof define === 'function' && define.amd ? define('@angular/platform-webworker-dynamic', ['exports', '@angular/common', '@angular/compiler', '@angular/core', '@angular/platform-browser-dynamic'], factory) :
+    (global = global || self, factory((global.ng = global.ng || {}, global.ng.platformWebworkerDynamic = {}), global.ng.common, global.ng.compiler, global.ng.core, global.ng.platformBrowserDynamic));
+}(this, function (exports, common, compiler, core, platformBrowserDynamic) { 'use strict';
 
     /**
      * @license
@@ -20,7 +20,7 @@
     /**
      * @publicApi
      */
-    var VERSION = new core.Version('7.2.0+103.sha-885f1af');
+    var VERSION = new core.Version('7.2.0+104.sha-b78351c');
 
     /**
      * @license
@@ -63,5 +63,5 @@
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
-})));
+}));
 //# sourceMappingURL=platform-webworker-dynamic.umd.js.map
