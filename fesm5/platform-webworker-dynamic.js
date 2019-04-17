@@ -1,5 +1,5 @@
 /**
- * @license Angular v8.0.0-beta.12+16.sha-afa4c50.with-local-changes
+ * @license Angular v8.0.0-beta.12+18.sha-8d5ef9c.with-local-changes
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -19,7 +19,7 @@ import { ɵplatformCoreDynamic, ɵResourceLoaderImpl } from '@angular/platform-b
 /**
  * @publicApi
  */
-var VERSION = new Version('8.0.0-beta.12+16.sha-afa4c50.with-local-changes');
+var VERSION = new Version('8.0.0-beta.12+18.sha-8d5ef9c.with-local-changes');
 
 /**
  * @license
