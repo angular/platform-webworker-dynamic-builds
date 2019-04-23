@@ -1,5 +1,5 @@
 /**
- * @license Angular v8.0.0-beta.13+80.sha-9873356.with-local-changes
+ * @license Angular v8.0.0-beta.13+82.sha-8e73f9b.with-local-changes
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -17,12 +17,13 @@ import { ɵplatformCoreDynamic, ɵResourceLoaderImpl } from '@angular/platform-b
  * \@publicApi
  * @type {?}
  */
-const VERSION = new Version('8.0.0-beta.13+80.sha-9873356.with-local-changes');
+const VERSION = new Version('8.0.0-beta.13+82.sha-8e73f9b.with-local-changes');
 
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
+const ɵ0 = { providers: [{ provide: ResourceLoader, useClass: ɵResourceLoaderImpl, deps: [] }] }, ɵ1 = ɵPLATFORM_WORKER_UI_ID;
 /**
  * \@publicApi
  * @type {?}
@@ -30,10 +31,10 @@ const VERSION = new Version('8.0.0-beta.13+80.sha-9873356.with-local-changes');
 const platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'workerAppDynamic', [
     {
         provide: COMPILER_OPTIONS,
-        useValue: { providers: [{ provide: ResourceLoader, useClass: ɵResourceLoaderImpl, deps: [] }] },
+        useValue: ɵ0,
         multi: true
     },
-    { provide: PLATFORM_ID, useValue: ɵPLATFORM_WORKER_UI_ID }
+    { provide: PLATFORM_ID, useValue: ɵ1 }
 ]);
 
 /**
