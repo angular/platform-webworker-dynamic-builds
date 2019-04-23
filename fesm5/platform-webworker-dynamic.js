@@ -1,5 +1,5 @@
 /**
- * @license Angular v8.0.0-beta.13+62.sha-5c8d156.with-local-changes
+ * @license Angular v8.0.0-beta.13+91.sha-b61c9df.with-local-changes
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -7,7 +7,7 @@
 import { ɵPLATFORM_WORKER_UI_ID } from '@angular/common';
 import { ResourceLoader } from '@angular/compiler';
 import { Version, createPlatformFactory, COMPILER_OPTIONS, PLATFORM_ID } from '@angular/core';
-import { ɵplatformCoreDynamic, ɵResourceLoaderImpl } from '@angular/platform-browser-dynamic';
+import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-browser-dynamic';
 
 /**
  * @license
@@ -19,7 +19,7 @@ import { ɵplatformCoreDynamic, ɵResourceLoaderImpl } from '@angular/platform-b
 /**
  * @publicApi
  */
-var VERSION = new Version('8.0.0-beta.13+62.sha-5c8d156.with-local-changes');
+var VERSION = new Version('8.0.0-beta.13+91.sha-b61c9df.with-local-changes');
 
 /**
  * @license
@@ -28,16 +28,17 @@ var VERSION = new Version('8.0.0-beta.13+62.sha-5c8d156.with-local-changes');
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
+var ɵ0 = { providers: [{ provide: ResourceLoader, useClass: ɵResourceLoaderImpl, deps: [] }] }, ɵ1 = ɵPLATFORM_WORKER_UI_ID;
 /**
  * @publicApi
  */
 var platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'workerAppDynamic', [
     {
         provide: COMPILER_OPTIONS,
-        useValue: { providers: [{ provide: ResourceLoader, useClass: ɵResourceLoaderImpl, deps: [] }] },
+        useValue: ɵ0,
         multi: true
     },
-    { provide: PLATFORM_ID, useValue: ɵPLATFORM_WORKER_UI_ID }
+    { provide: PLATFORM_ID, useValue: ɵ1 }
 ]);
 
 /**
@@ -61,5 +62,5 @@ var platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'wor
  * Generated bundle index. Do not edit.
  */
 
-export { platformWorkerAppDynamic, VERSION };
+export { platformWorkerAppDynamic, ɵ0, ɵ1, VERSION };
 //# sourceMappingURL=platform-webworker-dynamic.js.map
