@@ -9,5 +9,6 @@ import { PlatformRef, StaticProvider } from '@angular/core';
 export { VERSION } from './version';
 /**
  * @publicApi
+ * @deprecated platform-webworker is deprecated in Angular and will be removed in version 10
  */
 export declare const platformWorkerAppDynamic: (extraProviders?: StaticProvider[] | undefined) => PlatformRef;
