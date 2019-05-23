@@ -1,5 +1,5 @@
 /**
- * @license Angular v8.0.0-rc.4+57.sha-c8af830.with-local-changes
+ * @license Angular v8.0.0-rc.4+59.sha-361f181.with-local-changes
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -10,11 +10,13 @@ import { Version } from '@angular/core';
 
 /**
  * @publicApi
+ * @deprecated platform-webworker is deprecated in Angular and will be removed in version 10
  */
 export declare const platformWorkerAppDynamic: (extraProviders?: StaticProvider[] | undefined) => PlatformRef;
 
 /**
  * @publicApi
+ * @deprecated platform-webworker is deprecated in Angular and will be removed in version 10
  */
 export declare const VERSION: Version;
 
