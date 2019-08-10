@@ -1,5 +1,5 @@
 /**
- * @license Angular v9.0.0-next.1+11.sha-0ddf0c4.with-local-changes
+ * @license Angular v9.0.0-next.1+18.sha-9a37e82.with-local-changes
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -7,7 +7,7 @@
 import { ɵPLATFORM_WORKER_UI_ID } from '@angular/common';
 import { ResourceLoader } from '@angular/compiler';
 import { Version, createPlatformFactory, COMPILER_OPTIONS, PLATFORM_ID } from '@angular/core';
-import { ɵplatformCoreDynamic, ɵResourceLoaderImpl } from '@angular/platform-browser-dynamic';
+import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-browser-dynamic';
 
 /**
  * @fileoverview added by tsickle
@@ -18,7 +18,7 @@ import { ɵplatformCoreDynamic, ɵResourceLoaderImpl } from '@angular/platform-b
  * @deprecated platform-webworker is deprecated in Angular and will be removed in version 10
  * @type {?}
  */
-const VERSION = new Version('9.0.0-next.1+11.sha-0ddf0c4.with-local-changes');
+const VERSION = new Version('9.0.0-next.1+18.sha-9a37e82.with-local-changes');
 
 /**
  * @fileoverview added by tsickle
