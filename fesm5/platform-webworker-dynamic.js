@@ -1,5 +1,5 @@
 /**
- * @license Angular v9.0.0-rc.0+62.sha-d751ca7.with-local-changes
+ * @license Angular v9.0.0-rc.0+63.sha-3de72e4.with-local-changes
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -20,7 +20,7 @@ import { ɵplatformCoreDynamic, ɵResourceLoaderImpl } from '@angular/platform-b
  * @publicApi
  * @deprecated platform-webworker is deprecated in Angular and will be removed in version 10
  */
-var VERSION = new Version('9.0.0-rc.0+62.sha-d751ca7.with-local-changes');
+var VERSION = new Version('9.0.0-rc.0+63.sha-3de72e4.with-local-changes');
 
 /**
  * @license
@@ -59,5 +59,5 @@ var platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'wor
  * found in the LICENSE file at https://angular.io/license
  */
 
-export { VERSION, platformWorkerAppDynamic };
+export { platformWorkerAppDynamic, VERSION };
 //# sourceMappingURL=platform-webworker-dynamic.js.map
