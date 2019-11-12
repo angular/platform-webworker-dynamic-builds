@@ -1,5 +1,5 @@
 /**
- * @license Angular v9.0.0-next.12+25.sha-083d4b8.with-local-changes
+ * @license Angular v9.0.0-rc.1+58.sha-dbd55fc.with-local-changes
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -8,7 +8,7 @@
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/common'), require('@angular/compiler'), require('@angular/core'), require('@angular/platform-browser-dynamic')) :
     typeof define === 'function' && define.amd ? define('@angular/platform-webworker-dynamic', ['exports', '@angular/common', '@angular/compiler', '@angular/core', '@angular/platform-browser-dynamic'], factory) :
     (global = global || self, factory((global.ng = global.ng || {}, global.ng.platformWebworkerDynamic = {}), global.ng.common, global.ng.compiler, global.ng.core, global.ng.platformBrowserDynamic));
-}(this, function (exports, common, compiler, core, platformBrowserDynamic) { 'use strict';
+}(this, (function (exports, common, compiler, core, platformBrowserDynamic) { 'use strict';
 
     /**
      * @license
@@ -21,7 +21,7 @@
      * @publicApi
      * @deprecated platform-webworker is deprecated in Angular and will be removed in version 10
      */
-    var VERSION = new core.Version('9.0.0-next.12+25.sha-083d4b8.with-local-changes');
+    var VERSION = new core.Version('9.0.0-rc.1+58.sha-dbd55fc.with-local-changes');
 
     /**
      * @license
@@ -65,12 +65,12 @@
      * Generated bundle index. Do not edit.
      */
 
+    exports.VERSION = VERSION;
     exports.platformWorkerAppDynamic = platformWorkerAppDynamic;
     exports.ɵ0 = ɵ0;
     exports.ɵ1 = ɵ1;
-    exports.VERSION = VERSION;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
-}));
+})));
 //# sourceMappingURL=platform-webworker-dynamic.umd.js.map
