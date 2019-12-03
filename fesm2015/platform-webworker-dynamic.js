@@ -1,5 +1,5 @@
 /**
- * @license Angular v9.0.0-rc.1+350.sha-f84f362.with-local-changes
+ * @license Angular v9.0.0-rc.1+351.sha-671dead.with-local-changes
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -19,7 +19,7 @@ import { ɵplatformCoreDynamic, ɵResourceLoaderImpl } from '@angular/platform-b
  * @deprecated platform-webworker is deprecated in Angular and will be removed in version 10
  * @type {?}
  */
-const VERSION = new Version('9.0.0-rc.1+350.sha-f84f362.with-local-changes');
+const VERSION = new Version('9.0.0-rc.1+351.sha-671dead.with-local-changes');
 
 /**
  * @fileoverview added by tsickle
