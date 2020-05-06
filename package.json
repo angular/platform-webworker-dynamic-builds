@@ -1,23 +1,15 @@
 {
   "name": "@angular/platform-webworker-dynamic",
-  "version": "10.0.0-next.5+45.sha-fafa50d",
+  "version": "10.0.0-next.5+53.sha-3c6c00d",
   "description": "Angular - library for using Angular in a web browser with web workers",
-  "main": "./bundles/platform-webworker-dynamic.umd.js",
-  "module": "./fesm5/platform-webworker-dynamic.js",
-  "es2015": "./fesm2015/platform-webworker-dynamic.js",
-  "esm5": "./esm5/platform-webworker-dynamic.js",
-  "esm2015": "./esm2015/platform-webworker-dynamic.js",
-  "fesm5": "./fesm5/platform-webworker-dynamic.js",
-  "fesm2015": "./fesm2015/platform-webworker-dynamic.js",
-  "typings": "./platform-webworker-dynamic.d.ts",
   "author": "angular",
   "license": "MIT",
   "peerDependencies": {
-    "@angular/common": "10.0.0-next.5+45.sha-fafa50d",
-    "@angular/core": "10.0.0-next.5+45.sha-fafa50d",
-    "@angular/compiler": "10.0.0-next.5+45.sha-fafa50d",
-    "@angular/platform-browser": "10.0.0-next.5+45.sha-fafa50d",
-    "@angular/platform-webworker": "10.0.0-next.5+45.sha-fafa50d",
+    "@angular/common": "10.0.0-next.5+53.sha-3c6c00d",
+    "@angular/core": "10.0.0-next.5+53.sha-3c6c00d",
+    "@angular/compiler": "10.0.0-next.5+53.sha-3c6c00d",
+    "@angular/platform-browser": "10.0.0-next.5+53.sha-3c6c00d",
+    "@angular/platform-webworker": "10.0.0-next.5+53.sha-3c6c00d",
     "tslib": "^1.10.0"
   },
   "repository": {
@@ -50,5 +42,11 @@
   "sideEffects": false,
   "publishConfig": {
     "registry": "https://wombat-dressing-room.appspot.com"
-  }
+  },
+  "main": "./bundles/platform-webworker-dynamic.umd.js",
+  "fesm2015": "./fesm2015/platform-webworker-dynamic.js",
+  "esm2015": "./esm2015/platform-webworker-dynamic.js",
+  "typings": "./platform-webworker-dynamic.d.ts",
+  "module": "./fesm2015/platform-webworker-dynamic.js",
+  "es2015": "./fesm2015/platform-webworker-dynamic.js"
 }
