@@ -1,15 +1,15 @@
 {
   "name": "@angular/platform-webworker-dynamic",
-  "version": "10.0.0-next.6+33.sha-4f3ac1d",
+  "version": "10.0.0-next.6+31.sha-2cddeab",
   "description": "Angular - library for using Angular in a web browser with web workers",
   "author": "angular",
   "license": "MIT",
   "peerDependencies": {
-    "@angular/common": "10.0.0-next.6+33.sha-4f3ac1d",
-    "@angular/core": "10.0.0-next.6+33.sha-4f3ac1d",
-    "@angular/compiler": "10.0.0-next.6+33.sha-4f3ac1d",
-    "@angular/platform-browser": "10.0.0-next.6+33.sha-4f3ac1d",
-    "@angular/platform-webworker": "10.0.0-next.6+33.sha-4f3ac1d",
+    "@angular/common": "10.0.0-next.6+31.sha-2cddeab",
+    "@angular/core": "10.0.0-next.6+31.sha-2cddeab",
+    "@angular/compiler": "10.0.0-next.6+31.sha-2cddeab",
+    "@angular/platform-browser": "10.0.0-next.6+31.sha-2cddeab",
+    "@angular/platform-webworker": "10.0.0-next.6+31.sha-2cddeab",
     "tslib": "^1.10.0"
   },
   "repository": {
