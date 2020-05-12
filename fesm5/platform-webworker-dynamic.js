@@ -1,5 +1,5 @@
 /**
- * @license Angular v9.1.6+15.sha-468aeb4
+ * @license Angular v9.1.6+19.sha-b91b3d7
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -18,9 +18,10 @@ import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-b
  */
 /**
  * @publicApi
- * @deprecated platform-webworker is deprecated in Angular and will be removed in version 10
+ * @deprecated platform-webworker is deprecated in Angular and will be removed in a future version
+ *     of Angular
  */
-var VERSION = new Version('9.1.6+15.sha-468aeb4');
+var VERSION = new Version('9.1.6+19.sha-b91b3d7');
 
 /**
  * @license
@@ -32,7 +33,8 @@ var VERSION = new Version('9.1.6+15.sha-468aeb4');
 var ɵ0 = { providers: [{ provide: ResourceLoader, useClass: ɵResourceLoaderImpl, deps: [] }] }, ɵ1 = ɵPLATFORM_WORKER_UI_ID;
 /**
  * @publicApi
- * @deprecated platform-webworker is deprecated in Angular and will be removed in version 10
+ * @deprecated platform-webworker is deprecated in Angular and will be removed in a future version
+ *     of Angular
  */
 var platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'workerAppDynamic', [
     {
