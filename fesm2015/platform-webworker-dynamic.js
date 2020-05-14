@@ -1,5 +1,5 @@
 /**
- * @license Angular v10.0.0-next.7+43.sha-f16ca1c
+ * @license Angular v10.0.0-next.7+45.sha-b2a3325
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -20,7 +20,7 @@ import { ɵplatformCoreDynamic, ɵResourceLoaderImpl } from '@angular/platform-b
  *     of Angular
  * @type {?}
  */
-const VERSION = new Version('10.0.0-next.7+43.sha-f16ca1c');
+const VERSION = new Version('10.0.0-next.7+45.sha-b2a3325');
 
 /**
  * @fileoverview added by tsickle
