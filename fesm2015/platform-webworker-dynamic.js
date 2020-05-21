@@ -1,5 +1,5 @@
 /**
- * @license Angular v10.0.0-next.9+22.sha-6ca3fb1
+ * @license Angular v10.0.0-next.9+23.sha-a1001f2
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -10,29 +10,31 @@ import { Version, createPlatformFactory, COMPILER_OPTIONS, PLATFORM_ID } from '@
 import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-browser-dynamic';
 
 /**
- * @fileoverview added by tsickle
- * Generated from: packages/platform-webworker-dynamic/src/version.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
  */
 /**
- * \@publicApi
+ * @publicApi
  * @deprecated platform-webworker is deprecated in Angular and will be removed in a future version
  *     of Angular
- * @type {?}
  */
-const VERSION = new Version('10.0.0-next.9+22.sha-6ca3fb1');
+const VERSION = new Version('10.0.0-next.9+23.sha-a1001f2');
 
 /**
- * @fileoverview added by tsickle
- * Generated from: packages/platform-webworker-dynamic/src/platform-webworker-dynamic.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
  */
 const ɵ0 = { providers: [{ provide: ResourceLoader, useClass: ɵResourceLoaderImpl, deps: [] }] }, ɵ1 = ɵPLATFORM_WORKER_UI_ID;
 /**
- * \@publicApi
+ * @publicApi
  * @deprecated platform-webworker is deprecated in Angular and will be removed in a future version
  *     of Angular
- * @type {?}
  */
 const platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'workerAppDynamic', [
     {
@@ -44,20 +46,25 @@ const platformWorkerAppDynamic = createPlatformFactory(ɵplatformCoreDynamic, 'w
 ]);
 
 /**
- * @fileoverview added by tsickle
- * Generated from: packages/platform-webworker-dynamic/public_api.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
  */
+// This file only reexports content of the `src` folder. Keep it that way.
 
 /**
- * @fileoverview added by tsickle
- * Generated from: packages/platform-webworker-dynamic/index.ts
- * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
  */
 
 /**
  * Generated bundle index. Do not edit.
  */
 
-export { VERSION, platformWorkerAppDynamic };
+export { VERSION, platformWorkerAppDynamic, ɵ0, ɵ1 };
 //# sourceMappingURL=platform-webworker-dynamic.js.map
