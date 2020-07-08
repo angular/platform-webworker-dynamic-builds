@@ -1,5 +1,5 @@
 /**
- * @license Angular v9.1.11+5.sha-a86a412
+ * @license Angular v9.1.12
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -20,7 +20,7 @@ import { ɵResourceLoaderImpl, ɵplatformCoreDynamic } from '@angular/platform-b
  *     of Angular
  * @type {?}
  */
-const VERSION = new Version('9.1.11+5.sha-a86a412');
+const VERSION = new Version('9.1.12');
 
 /**
  * @fileoverview added by tsickle
